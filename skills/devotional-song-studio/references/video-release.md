@@ -8,9 +8,10 @@ Before any video work create its dedicated folder as defined in [production-cont
 - `captions.srt`: checked timings from the actual performance. Do not manufacture word-level synchronization if only section timings are available.
 - `beat-map.json`: measured or estimated beats, section boundaries, and confidence.
 - `storyboard.md`: scene start/end, lyric/story beat, image or symbol, composition, transition, and asset source.
+- `motion.md`: the concrete visual grammar, section choreography, cue references, runtime choices, and proof/review findings from [motion.md](motion.md).
 - `project/`: HyperFrames project and its current brief/state. Keep previews in `previews/` and deliverable renders in `exports/`.
 
-Use the available HyperFrames entry skill first. Resolve the owning route it specifies. A full beat-driven song normally uses music-to-video; short teasers can use motion-graphics, and custom narrative pieces may use general-video. Read core before authoring HTML and registry before implementing named effects. Use media-use for assets and captions as appropriate. Follow the owning workflow's actual dependencies; do not run HyperFrames commands from memory if its skills are missing.
+Author the requested motion graphics as an editable HyperFrames code project in the user's chosen AI code editor. Use the available HyperFrames entry skill first. Resolve the owning route it specifies. A full beat-driven song normally uses music-to-video; short teasers can use motion-graphics, and custom narrative pieces may use general-video. Read core before authoring HTML and registry before implementing named effects. Use media-use for assets and captions as appropriate. Follow the owning workflow's actual dependencies; do not run HyperFrames commands from memory if its skills are missing.
 
 Choose a coherent treatment appropriate to the tradition: illustrated story scenes, symbolic landscapes, expressive typography, or a combination. Respect the user's preferences about depicting deities. Avoid treating sacred symbols as arbitrary decoration. Invented visuals should not be described as historical evidence.
 
@@ -24,7 +25,7 @@ Verify renders through the current HyperFrames checks and representative snapsho
 
 Create `release/` with title options, a recommended title, description, credits/provenance, thumbnail brief/image if requested, captions, and `upload-settings.json`. Record the intended video path, channel, language, visibility, audience setting, synthetic-media disclosure, and schedule including timezone. Unknown choices stay unknown.
 
-Titles should accurately describe the song's deity/theme and language. Descriptions distinguish original poetic storytelling from scriptural quotation and include verified source credits. Do not promise monetization, royalty-free status, or exclusive ownership without evidence. Check applicable Gemini output terms and source-asset permissions before making commercial-rights claims.
+Titles should accurately describe the song's deity/theme and language. Descriptions distinguish original poetic storytelling from scriptural quotation and include verified source credits. Do not promise monetization, royalty-free status, or exclusive ownership without evidence. Check the selected music/image providers' applicable output terms and source-asset permissions before making commercial-rights claims.
 
 YouTube's disclosure guidance lists synthetically generated music as an example requiring disclosure. Verify the current guidance and represent this honestly in upload settings. Do not assume an AI disclosure in the description substitutes for the platform's disclosure field. Devotional subject matter alone does not determine whether content is made for kids; use its actual intended audience.
 

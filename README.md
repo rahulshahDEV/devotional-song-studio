@@ -1,12 +1,14 @@
 # Devotional Song Studio
 
-A Codex skill for original devotional storytelling rap and songs in Hindi or another requested language, Gemini audio generation through Brave and Playwright, and music-synchronized HyperFrames videos.
+A repository skill for original devotional storytelling rap and songs in Hindi or another requested language. Generate audio with ElevenLabs Music or https://gemini.google.com (Brave/Playwright for Gemini); generate images with Gemini or ChatGPT web; author synchronized HyperFrames motion graphics in your chosen AI code editor.
 
 The workflow analyzes supplied song references, develops an original story and refrain, generates/reviews audio takes, plans beat/vocal/story cues, and prepares video and YouTube release assets. Uploading or publishing follows the user's specific authorization.
 
 ## Use the skill
 
 The entry point is [skills/devotional-song-studio/SKILL.md](skills/devotional-song-studio/SKILL.md). Reference that file directly in Codex, or copy the `devotional-song-studio` folder into your Codex skills directory to make `$devotional-song-studio` discoverable. Existing skill installations should be reviewed before replacement.
+
+For another AI code editor, open this repository and tell its agent to read the same SKILL.md and studio-preferences.md first, then the relevant references. The editor needs local file/terminal access, Python and browser automation for Gemini, and Node/HyperFrames for motion work. Skill discovery syntax varies by editor; the Markdown instructions and editable project files are portable. These instructions do not establish that every editor has been integration-tested. Use [editor handoff](skills/devotional-song-studio/references/editor-handoff.md) to recover missing HyperFrames instructions and preserve the project's resume point.
 
 Example request:
 
@@ -56,7 +58,7 @@ For production-sized audio the analyzer currently accepts measurable tracks up t
 
 The skill routes video work through the installed HyperFrames entry workflow. Its guidance covers section-specific choreography, selective punchline emphasis for dense rap, phrase-based lyrics, Devanagari shaping, deterministic feature-driven motion, and a short proof before a full build. See [motion direction](skills/devotional-song-studio/references/motion-direction.md) and [research](skills/devotional-song-studio/references/research.md).
 
-Gemini model labels, feature availability, quotas, and output controls must be inspected in the account. “Argon” is a user-requested label still awaiting verification; public documentation names Lyria. No automated Gemini generation or live rendering is claimed by installing this skill.
+Gemini model labels, feature availability, quotas, and output controls must be inspected in the account. The historical label “Argon” is unverified and is not required for new productions; inspect a named model only when the current request explicitly requires it. No automated Gemini generation or live rendering is claimed by installing this skill.
 
 ## Validate
 

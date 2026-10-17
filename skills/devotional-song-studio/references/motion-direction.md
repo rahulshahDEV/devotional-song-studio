@@ -1,5 +1,7 @@
 # Art direction and motion for devotional rap
 
+Use [motion.md](motion.md) for the production-specific plan, choreography table, HyperFrames implementation checks, and proof evidence. This document owns the artistic principles; the plan translates them into the actual song.
+
 ## Design a visual idea before effects
 
 Write one sentence connecting the song's change to a visible change. For example: “A tangled path becomes navigable as the devotee changes their actions.” Build a motif from that story instead of cycling unrelated deity images. Record depiction preferences before producing imagery when they materially affect the concept.

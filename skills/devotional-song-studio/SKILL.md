@@ -1,6 +1,6 @@
 ---
 name: devotional-song-studio
-description: Create original devotional songs and storytelling rap in Hindi or another requested language using song references, Gemini music generation through Brave and Playwright, and an optional HyperFrames music video and YouTube release package. Use for a bhakti song production workflow, not general browser automation.
+description: Create original devotional songs and storytelling rap in Hindi or another requested language using song references, ElevenLabs Music or Gemini generation, and an optional HyperFrames motion video and YouTube release package. Use for a bhakti song production workflow, not general browser automation.
 ---
 
 # Devotional Song Studio
@@ -21,36 +21,40 @@ Ask for missing essentials: subject/deity or tradition and references when the r
 
 ## Write the song
 
-Read [songwriting.md](references/songwriting.md) for analysis, story shapes, multilingual handling, and the generation prompt contract.
+Read [songwriting.md](references/songwriting.md) for analysis, story shapes, multilingual handling, and the generation prompt contract. Read [audio-production.md](references/audio-production.md) before prompting or selecting audio: map delivery, test difficult pronunciation, and plan arrangement contrast.
 
 1. Inspect supplied material with available tools. Distinguish listening, transcript reading, and description-only analysis. If a link is inaccessible, use available information and state that limitation.
 2. Save `reference-analysis.md`: useful craft traits and an original direction. Do not copy source lyrics, recognizable hooks, samples, or distinctive melody. Describe vocal traits instead of promising a named artist's voice.
 3. Develop three concise concepts and recommend one. Unless the user asks to choose first, continue with the strongest fit and record the choice.
 4. Save `story.md`, `lyrics.md`, and `generation-prompt.md`. Use natural spoken language, specific scenes, and a memorable refrain. Verify claims presented as scripture, label invented episodes, and avoid unintentional mixing of traditions.
 
+For an optional concrete demonstration of lyric revision, delivery, image continuity, and cue-based motion planning, see [worked-example.md](references/worked-example.md). Adapt its decisions to the chosen subject; it is an illustrative draft, not a production template or verified performance.
+
 Before generation, apply the lyric review in [quality-review.md](references/quality-review.md). Revise identified weaknesses rather than padding the brief with generic quality adjectives. A review is an internal work step, not an automatic request for user approval.
 
 ## Generate and select audio
 
-Read [browser-gemini.md](references/browser-gemini.md) before connecting or submitting. Use Brave and Playwright/CDP at `gemini.google.com`. Do not substitute another generator, API, or account without the user's direction.
+Generate rap/song audio with **ElevenLabs Music or https://gemini.google.com**, as the user permits. Honor a current request or existing production's provider. For a new production with no provider choice, select the available authorized route that fits the language, duration, editing needs, and budget; record why. Read [browser-gemini.md](references/browser-gemini.md) for Gemini through signed-in Brave/Playwright, or [elevenlabs.md](references/elevenlabs.md) for ElevenLabs product/capability checks. Both routes share the same submission budget and quality evidence. Do not silently switch a pending production after a timeout; resolve its existing request before any new provider submission.
 
-The requested label “Argon” is unverified. Record it verbatim and inspect visible model/tool labels. Public documentation names Lyria, but does not establish what this account exposes. Explain a mismatch; if the requested model is unavailable, finish independent writing and obtain the user's choice before generating with another model.
+If the current user request or production explicitly requires a particular model, record that label and compare it with the visible tool. The historical label “Argon” was never verified and is not a requirement for new productions. For a generic Gemini request, use the available music tool within the authorized scope and record its observed label; public Lyria documentation does not establish this account's controls. Resolve a mismatch only when it conflicts with an actual model requirement.
 
 Default to at most three audio submissions per song unless the user sets another budget. Retries count. Reuse an in-progress result after a timeout instead of duplicating it. Do not buy credits or change subscription/activity settings as a side effect.
 
 For every take save the exact prompt, visible model/settings, result status, and local download under `audio/take-01/`, etc. Review actual audio before choosing. Listen using available media tools; transcription and signal checks supplement listening. If listening is unavailable, mark the judgment provisional and make the take reviewable by the user. Converting MP3 to WAV does not restore quality.
 
-Save `audio-review.md`: pronunciation of sacred names, actual words versus lyrics, story completeness, hook, vocal clarity, transitions, artifacts, and selection reasons. Preserve source files, provenance, and embedded watermarks. Do not promise exact lyric adherence or guaranteed commercial rights.
+Save `audio-review.md`: pronunciation of sacred names, actual words versus lyrics, story completeness, hook, vocal clarity, transitions, artifacts, and selection reasons. Follow [audio-production.md](references/audio-production.md) for level-matched auditions, selective section repair, stereo-versus-stem decisions, and finishing. Save pronunciation and processing evidence when used; lock the actual finished master before video timing. Preserve source files, provenance, and embedded watermarks. Do not promise exact lyric adherence or guaranteed commercial rights.
 
 Use the audio review criteria in [quality-review.md](references/quality-review.md). Record why the selected take wins and what remains imperfect; an arbitrary numerical score is not proof of excellence.
 
 ## Create the video when requested
 
-Read [video-release.md](references/video-release.md). Load the available `hyperframes` entry skill first and follow its current routing. A full song driven by its beat grid normally uses music-to-video; a custom narrative may use general-video. Use motion-graphics for short standalone animated units.
+Author **HyperFrames motion graphics in the user's chosen AI code editor**, with editable HTML/CSS/JavaScript and local project assets. Read [video-release.md](references/video-release.md). Load the available `hyperframes` entry skill first and follow its current routing: use `motion-graphics` for suitable short animated units; assemble a full beat-driven song through `music-to-video`, or a custom narrative through `general-video`, preserving the requested motion-graphics treatment. Editor choice does not change the rendering framework or the shared audio clock. See [motion.md](references/motion.md) for the portable handoff.
 
-Lock the audio before detailed synchronization. Create a timed actual-sung transcript, section/beat map, visual treatment, and storyboard. Load HyperFrames core before composition HTML, registry before named effects, and media-use for sourced/generated assets. If an owning skill cannot be resolved, report the dependency instead of claiming a render.
+For image assets, the user permits **https://chatgpt.com** and **https://gemini.google.com** through an available authorized browser workflow. See [motion.md](references/motion.md) for image continuity, provenance, and local-asset checks. Music and image providers are independent production choices; save each explicitly.
 
-Read [rap-sync.md](references/rap-sync.md) for the shared audio clock, beat/vocal/narrative timing layers, reviewed `sync.json`, and the audio-analysis/timing-compiler tools. Read [motion-direction.md](references/motion-direction.md) for section-specific choreography, shaping-safe Hindi typography, readable fast-rap treatment, and the short proof before a full build. See [research.md](references/research.md) for the primary sources and what remains empirical.
+Lock the audio before detailed synchronization. Create a timed actual-sung transcript, section/beat map, visual treatment, and storyboard. Load HyperFrames core before composition HTML, registry before named effects, and media-use for sourced/generated assets. If an owning skill cannot be resolved, follow [editor-handoff.md](references/editor-handoff.md) to recover the correct standalone/plugin instructions, preserve completed work, and report any remaining dependency.
+
+Read [rap-sync.md](references/rap-sync.md) for the shared audio clock, beat/vocal/narrative timing layers, reviewed `sync.json`, and the audio-analysis/timing-compiler tools. Read [motion-direction.md](references/motion-direction.md) for section-specific choreography and shaping-safe typography. Use [motion.md](references/motion.md) to write the video's concrete motion plan, bind it to reviewed cues, and prove the difficult passage before the full build. See [research.md](references/research.md) for the primary sources and what remains empirical.
 
 Measure and preserve the audio identity. Align lyrics to actual performed words, review uncertain timings, and compile animation cues from absolute timestamps. Keep intended timing separate from observations of the rendered export. Estimated beats or a successful compiler run do not establish synchronized final video.
 

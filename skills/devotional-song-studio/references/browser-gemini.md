@@ -55,7 +55,7 @@ async def inspect_gemini():
 
 Do not enumerate or export unrelated tabs. If multiple Gemini tabs exist, identify the intended production tab before acting. Confirm expected account context using only necessary visible UI, without logging personal identifiers. Do not create a new anonymous browser context that loses the signed-in session.
 
-Inspect the current model picker, music tool, duration/vocal controls, and quota notices. The user's “Argon” label is unresolved until observed or clarified. Record visible labels independently from public documentation; selecting a chat model is not proof of the underlying music model. Do not claim hidden model identity.
+Inspect the current model picker, music tool, duration/vocal controls, and quota notices. Check a model requirement only when the current request or production actually specifies it. The historical “Argon” label is unverified and must not block a generic Gemini request. Record visible labels independently from public documentation; selecting a chat model is not proof of the underlying music model. Do not claim hidden model identity.
 
 Use accessibility roles, visible labels, and live DOM inspection to build locators. Avoid hardcoded coordinates, invented selectors, and language-specific labels without inspection. A screenshot helps diagnose layout; it is not a stable locator contract. Capture only necessary production content and store locally.
 

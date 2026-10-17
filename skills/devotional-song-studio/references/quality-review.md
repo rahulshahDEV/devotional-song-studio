@@ -50,3 +50,49 @@ Use these cases as a behavioral review; do not treat a prose walkthrough as a li
 | “Use my open Brave session,” without debug port | Explain attach prerequisite; preserve existing browser and offer dedicated profile setup |
 
 For an end-to-end claim, separately require observed live browser attachment, actual generation/download, listened-to audio, rendered/reviewed video, and requested upload verification. Local fixtures cover helper behavior only.
+
+## Evidence-based quality rating
+
+For a skill audit, rate written workflow separately from delivered art. A complete instruction set cannot establish realistic vocals. Save the review date, inspected files, available artifacts, score rationale, and top defects. Do not increase a score just because guidance was added.
+
+For an actual song, score each observed dimension from 0–10 and record a timecode/example plus the next improvement. Use these studio weights as a diagnostic, not a scientific measure:
+
+| Dimension | Weight | What earns a high score |
+| --- | --- | --- |
+| Devotional meaning and specificity | 15% | Subject shapes the choices; central source claims and names are sound |
+| Story and original lyrics | 15% | Concrete images, causal/emotional change, earned ending |
+| Hook and musical development | 15% | Memorable refrain; meaningful contrast and return |
+| Flow and performance realism | 20% | Believable intention, breath, cadence, diction, consistent voice |
+| Pronunciation and actual lyric fidelity | 15% | Critical words clear; no missing story resolution |
+| Production and finish | 20% | Intelligible lead, coherent arrangement, clean transitions and tail |
+
+For a requested video, score separately: meaning/art direction 25%, choreography/section contrast 25%, typography/readability 20%, observed synchronization 20%, and export integrity 10%. Do not let video polish hide a weak song.
+
+Compute a weighted total only when all its dimensions were reviewed. Otherwise mark the total unverified; a rubric walkthrough or signal analysis cannot fill missing listening/viewing scores. Record who listened and under what conditions. A native-speaker review, phone check, or blinded comparison counts only when it occurred.
+
+Aim for 10/10 through concrete revisions, but never label unobserved quality perfect. A critical pronunciation error, clipped ending, obvious synthesis defect, missing lyric resolution, or unreadable/broken caption blocks final readiness even if the weighted average is high. Stop service retries at the authorized budget, retain the strongest honest candidate, and record the remaining decision.
+
+For listener feedback, use specific questions: which phrase felt artificial, where meaning became unclear, whether the hook stayed memorable, and whether the ending felt earned. Use their timecoded feedback to select the next repair. Do not ask only whether they “liked it.”
+
+## Additional behavioral review cases
+
+| Request or event | Expected behavior |
+| --- | --- |
+| “Research ElevenLabs and improve the skill.” | Update guidance and sources; no paid generation or silent provider migration |
+| “Use ElevenLabs for this song instead of Gemini.” | Select the permitted ElevenLabs route for this production; check live capability, preserve budget and provenance |
+| A TTS tag or phoneme recipe is proposed for Music | Check product/model support; do not assume shared syntax |
+| A plan returns exact-looking section timestamps | Keep them planned until verified against audio |
+| New master after vocal repair or normalization | Preserve old master; recheck identity and invalidate dependent timing |
+| A separated vocal sounds watery | Keep original; reject separation for the mix if it degrades the result |
+| HyperFrames check reports zero samples | Inspect preceding errors; do not call the visual audit passed |
+
+## Forward-test findings and corrected behavior
+
+A read-only independent exercise used a Hindi Hanuman worker-to-service brief, a verse-only revision, and an editor handoff with missing HyperFrames skills. It produced an original draft and image/motion plan; it did not generate or score actual audio/video.
+
+| Request or condition | Behavior to preserve |
+| --- | --- |
+| Generic “use Gemini” with no named model | Inspect and use the available music tool; do not block on historical Argon wording |
+| “Revise only verse two; leave audio/video intact” | Save an unsung lyric draft; retain performed transcript, selected master, captions, cues, and renders |
+| HyperFrames skills missing in another editor | Use editor-handoff.md to recover the correct standalone/plugin instructions; continue independent work, keep render unverified |
+| Image generation at ChatGPT/Gemini | Save local downloads and consistent visual references; record the independently selected ElevenLabs/Gemini music route |

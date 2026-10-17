@@ -39,6 +39,8 @@ Duration is an arrangement goal. Estimate section timing, then revise against ge
 
 Perform a concrete revision pass: replace stock filler with an image or action, remove lines that exist only to complete a rhyme, shorten breathless phrases, and keep a stable narrator. Divine imagery should express the specific story. Avoid repeated generic claims of darkness/light/power where a place, gesture, object, or choice would convey the emotion. A familiar devotional phrase may remain when it has a deliberate musical or cultural purpose.
 
+Read [audio-production.md](audio-production.md) for the section performance map, pronunciation ledger, cadence audition, and arrangement decisions before submitting these lyrics.
+
 ## Generation prompt
 
 Save the exact prompt before submitting. Adapt this contract:

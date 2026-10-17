@@ -2,7 +2,7 @@
 
 ## Ownership
 
-Song writing and Gemini take files belong under `productions/<song-slug>/`. Before doing anything for a video, create `videos/<video-slug>/` there. For a standalone video without a song production, use `productions/<project-slug>/videos/<video-slug>/` with the same rule. This is the user's explicit folder preference.
+Song writing and provider take files belong under `productions/<song-slug>/`. Before doing anything for a video, create `videos/<video-slug>/` there. For a standalone video without a song production, use `productions/<project-slug>/videos/<video-slug>/` with the same rule. This is the user's explicit folder preference.
 
 ```text
 productions/<song-slug>/
@@ -11,12 +11,15 @@ productions/<song-slug>/
   story.md
   lyrics.md
   generation-prompt.md
+  pronunciation.md          # when pronunciation work is needed
+  mix-review.md             # when processing/finishing is performed
   audio/take-01/
   audio-review.md
   videos/<video-slug>/
     video.json
     BRIEF.md
     storyboard.md
+    motion.md
     transcript.md
     captions.srt
     beat-map.json

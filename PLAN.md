@@ -7,7 +7,7 @@ Use its file path directly; `$devotional-song-studio` becomes available if it is
 
 1. **Brief and references:** accept rap songs, audio, links, lyrics, or descriptions. Establish deity/tradition, language, story, audience, and duration. Default writing to Hindi/Devanagari. Analyze cadence, emotional progression, arrangement, and hook design; record what was actually heard or read.
 2. **Original writing:** develop three concepts, choose the strongest fit, and write concrete scenes with an emotional turn, memorable refrain, and resolved ending. Produce lyrics and pronunciation notes. Distinguish verified scriptural episodes from imagined devotional stories.
-3. **Gemini audio:** attach Playwright to Brave through a local debugging port and use the user's signed-in Gemini session. Inspect available music tools and models. Generate up to three takes by default, save exact prompts and downloads, and review actual audio before selection.
+3. **Music audio:** choose ElevenLabs Music or Gemini per production. For Gemini, attach Playwright to Brave through a local debugging port and use the user's signed-in session; for ElevenLabs, follow its route reference and authorized UI/API setup. Inspect available music tools and models. Generate up to three takes by default, save exact prompts and downloads, and review actual audio before selection.
 4. **Video:** lock the audio, transcribe what is actually sung, map sections and beats, and create the music video through HyperFrames. Use storytelling scenes, designed lyric typography, symbolic imagery, and purposeful animation. Export a YouTube master and requested Shorts versions.
 5. **Release:** prepare titles, description, thumbnail brief, captions, credits, and settings. Upload/publish only within explicit user authorization for that artifact and channel. This skill-creation request does not authorize an upload.
 
@@ -34,7 +34,7 @@ Publishing target: `rahulshahDEV/devotional-song-studio`. The user's conditional
 - Brave is installed at `/Applications/Brave Browser.app/Contents/MacOS/Brave Browser`.
 - Python Playwright was not installed during planning. Install in a workspace virtual environment when browser work is requested.
 - An ordinary Brave window cannot be attached unless debugging was enabled at launch. Reuse an authorized loopback endpoint or launch a dedicated workspace profile and have the user sign in there.
-- Google's public documentation names the music generator **Lyria**, including Lyria 3 Pro. The requested name **Argon** remains unverified. Inspect the signed-in UI and resolve a material mismatch before substituting a model.
+- Google's public documentation names the music generator **Lyria**, including Lyria 3 Pro. The historical name **Argon** remains unverified and is not a new-production requirement. Inspect the signed-in UI; resolve a mismatch only against an explicitly requested model.
 - Duration, languages, controls, and quotas must be checked in the account at production time. Do not promise seamless continuity across independently generated clips.
 
 ## First production run
