@@ -1,0 +1,4 @@
+interface:
+  display_name: "Devotional Song Studio"
+  short_description: "Create devotional rap, music videos, and release assets"
+  default_prompt: "Use $devotional-song-studio to turn my song references into an original Hindi devotional story song, generate it in Gemini through Brave, and prepare a music video and YouTube package."

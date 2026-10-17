@@ -1,0 +1,6 @@
+.browser-profiles/
+.venv/
+__pycache__/
+*.pyc
+/productions/
+.DS_Store
